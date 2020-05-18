@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:lts-alpine
 MAINTAINER Cheton Wu <cheton@gmail.com>
 
 ADD package.json package.json
